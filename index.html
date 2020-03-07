@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>test</title>
+<style>
+body
+{
+margin:0px;
+padding:0px;
+}
+.container
+{
+background:rgba(145,0,110,0.5);
+}
+ul
+{
+display:flex;
+padding:20px;
+margin:0px;
+}
+li
+{
+list-style:none;
+padding-left:20px;
+margin-left:10px;
+}
+a
+{
+text-decoration:none;
+}
+.push
+{
+margin-left:auto;
+}
+.cover
+{
+display:flex;
+background:rgba(255,238,0,0.7);
+align-items:center;
+justify-content:center;
+height:50vh;
+text-align:center;
+}
+.grid
+{
+display:flex;
+background:skyblue;
+
+}
+.grid
+{
+display:grid;
+grid-gap:20px;
+grid-template-columns:repeat(auto-fill,minmax(400px,2fr));
+}
+
+img
+{
+width:100%;
+justify-content:center;
+margin:auto;
+}
+.box
+{
+display:flex;
+padding:100px;
+margin:20px;
+border:2px solid red;
+background:grey;
+}
+.footer
+{
+background:rgba(237,87,34,0.7);
+text-align:center;
+}
+h2:hover
+{
+transform:rotate(10deg);
+}
+</style>
+</head>
+<body>
+<nav class="container">
+    <ul>
+         <li><a href="#">Home</a></li>
+         <li><a href="#">About</a></li>
+         <li><a href="#">Gallary</a></li>
+         <li><a href="#">Contact</a></li>
+         <li class="push"><a href="contact.html">signup</a>/<a href="#">login</a></li>  
+   </ul>
+</nav>
+   <div class="cover">
+     <h2 class="trans">covers!!!!!.....</h2> 
+   </div>
+     <div class="grid">
+           <div class="box"><img src="23.jpg"></div> 
+            <div class="box"><img src="23.jpg"></div>
+            <div class="box"><img src="23.jpg"></div>
+          <div class="box"><img src="23.jpg"></div>
+          <div class="box"><img src="23.jpg"></div>
+          <div class="box"><img src="23.jpg"></div>
+          <div class="box"><img src="23.jpg"></div>
+           <div class="box"><img src="23.jpg"></div>
+           <div class="box"><img src="23.jpg"></div>
+     </div>
+   <div class="footer">my footer</div>
+</body>
+</html>
